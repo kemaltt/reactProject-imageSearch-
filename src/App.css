@@ -71,3 +71,23 @@ img {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 0 0 1rem 1rem;
 }
+
+.over-info {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+i {
+    text-decoration: none;
+    color: white;
+}
+
+i:hover {
+    font-size: 1rem;
+    transition: 0.3s;
+    background-color: #e4405f;
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
