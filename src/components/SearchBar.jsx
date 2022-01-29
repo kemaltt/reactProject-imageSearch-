@@ -18,18 +18,19 @@ export default class SearchBar extends Component {
 
   render() {
     return (
-      <form className="form-container pt-5" onSubmit={this.handleSubmit}>
+      <form className="form-container pt-3" onSubmit={this.handleSubmit}>
+        <h1>Search a image theme</h1>
         <div className="form-row d-flex justify-content-center mb-5 ">
-          <div className="col-6 ">
+          <div className="col-5 ">
             <input
               onChange={this.handleInputChange}
               className="form-control"
-              placeholder="Search a image theme"
+              placeholder="Enter a image theme"
               type="text"
               value={this.state.term}
             />
           </div>
-          <div className="col-1">
+          <div className="search-btn">
             <input
               type="submit"
               className="btn btn-md btn-primary"
